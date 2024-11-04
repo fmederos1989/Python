@@ -9,6 +9,14 @@ class Perro(Animal):
     def hacer_sonido(self):
         print('Guau, guau!')
 
+    # Sobre escritura del metodo dormir
+    def  dormir(self):
+        print('El perro duerme durante la noche')
+
+class Gato(Animal):
+    def hacer_sonido(self):
+        print('Miau, miau!')
+
 # Programa principal
 
 print('*** Ejemplo de Herencia en Python ***')
